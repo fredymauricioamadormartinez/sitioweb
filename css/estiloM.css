@@ -1,0 +1,272 @@
+header{
+    background:#1b4bba;
+    color: #f5f3f5;
+    padding: 20px;
+    text-align: center ;
+  
+  }
+  
+  body{
+    background: rgb(8, 51, 90);
+  }
+  nav ul{
+    background-color: #320b9f ;
+    list-style-type: none ;
+    width: 95%;
+    text-align: center;
+  }
+  
+  nav li{
+    display: inline-flex;
+  }
+  
+  nav a{
+    color:#f5f3f5;
+    text-decoration:none;
+    padding: 10px;
+    width: 170px;
+  }
+  
+  nav a:hover{
+    color: #457897;
+  
+  }
+  
+  header h1{
+    font-family: "Caveat", cursive ;
+  }
+  
+  header nav{
+    font-family: "Pacifico", cursive;
+    font-weight:400;
+    font-style: normal;
+  }
+  
+  main{
+    font-family: "Shadows Into Light",cursive;
+    max-width:1000px ;
+    margin:20px auto;
+    padding:0 20px;
+  }
+  
+  .lista-productos{
+    display: flex;
+    flex-wrap: wrop;
+    justify-contet: space-between;
+  }
+  
+  .productos{
+    width: 30%; 
+    background-color: #fff;
+    padding:20px 5px 20px 5px;
+    margin: 10px;
+    box-shadow:0 0 10px rgba(250, 0, 0, 0.4);
+    transition: box-shadow 0.8s ease-in-out;
+  }
+  
+  .productos:hover{
+    box-shadow: 0 0 30px rgba(200, 0, 0, 0.8);
+  }
+  
+  
+  .productos img{
+    width:220px;
+    height:220px;
+    display: block;
+    transition: tranform 0.3s ease-in-out;
+    margin: 0 auto 10px;
+  }
+  
+  .productos:hover img{
+    transform: scale(1.1);
+  
+  }
+  
+  .productos button{
+    display: block;
+    margin: 0 auto;
+    background-color: #333;
+    color: #555;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition:  background-color 0,3s ease-in-out ;
+  
+  }
+  
+  .productos button:hover{
+    background-color: #549679;
+  }
+  
+  footer{
+    background-color: #1b4bba;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    font-size: 20px;
+  
+  
+  }
+  
+  .links-informativos{
+    width: 200px;
+  }
+  
+  .links-informativos ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .links-informativos li a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .redes-sociales{
+    width: 300px;
+  }
+  
+  .redes-sociales img{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+  }
+  
+  .redes-sociales li{
+    display: inline-flex;
+    margin-right: 10px;
+    margin: auto;
+  }
+  
+  .redes-sociales img:hover{
+    transform: scale(1.6);
+  
+  }
+  
+  .info-contacto{
+    color: white;
+    font-size: 20px;
+  }
+  
+  /Este es un identificador de CSS y se representa con un # numeral/
+   #ProductosDestacados{
+    color: #545789;
+   }
+  
+   #ProductosDestacados:hover{
+    color: #d5b942;
+   }
+   .lista-productos{
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  
+  .productos{
+    width: 30%;
+    background-color: white;
+    padding: 20px 5px 20px 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    transition: box-shadow 0.8s ease-in-out;
+  }
+  
+  .productos:hover{
+    box-shadow: 0 0 30px rgba(70, 600, 0, 0.8);
+  }
+  
+  .productos img{
+    align-content: center;
+    width: 250px;
+    height: 200px;
+    display: block;
+    transition: tranform 0.6s ease-in-out;
+    margin: 0 auto 10px;
+  }
+  
+  .producto:hover img{
+    transform: scale(0.9);
+  }
+  
+  .productos button {
+    display: block;
+    margin: 0 auto ;
+    background-color: gray;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ense-in-out;
+  }
+  
+  .productos button:hover{
+    background-color: royalblue;
+  }
+  
+  
+  footer{
+  
+    background-color: #357897;
+    color: blue;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    font-family: Calibri;
+    font-size: 15px;
+  
+  
+  }
+  
+  .links-informaticos{
+    width: 400px;
+  
+  }
+  
+  .links-informaticos ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .links-informaticos li a{
+    text-decoration: none;
+    color: floralwhite;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .redes-sociales{
+    width: 400px;
+  
+  }
+  
+  .redes-sociales img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
+  
+  
+  .redes-sociales li{
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .redes-sociales img:hover{
+    transform: scale(1.1);
+  }
